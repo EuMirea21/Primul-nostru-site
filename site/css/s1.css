@@ -1,3 +1,8 @@
 body {
-  font-family: 'Comic Neue', 'Comic Sans MS', 'Comic Sans', cursive;
+    font-family: 'Comic Neue', 'Comic Sans MS', 'Comic Sans', cursive;
+    background-color: #37ea82d2;
+}
+header
+{
+    text-align: center;
 }
