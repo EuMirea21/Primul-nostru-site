@@ -22,3 +22,16 @@ header
     background-color: #ffffff;
     color: rgb(0, 0, 0);
 }
+aside {
+  width: 20%;
+  padding-left: 15px;
+  margin-left: 15px;
+  float: right;
+  font-style: italic;
+ 
+}
+aside img {
+    border: 5px solid black;    
+    border-radius: 12px;           
+    box-shadow: 4px 4px 10px rgba(0,0,0,0.3);
+}
