@@ -6,9 +6,10 @@ header
 {
     text-align: center;
 }
-#menu
+#sfarsit
 {
     margin-left: auto; 
+    border-radius: 30px;
     margin-right: auto;
     background-color: rgb(0, 0, 0);
     display: block;
@@ -17,7 +18,7 @@ header
     text-decoration: none;
     text-align: center;
 }
-#menu:hover
+#sfarsit:hover
 {
     background-color: #ffffff;
     color: rgb(0, 0, 0);
@@ -34,4 +35,10 @@ aside img {
     border: 5px solid black;    
     border-radius: 12px;           
     box-shadow: 4px 4px 10px rgba(0,0,0,0.3);
+}
+#menu
+{
+    display: flex;
+    gap: 10px;
+    justify-content: center;
 }
