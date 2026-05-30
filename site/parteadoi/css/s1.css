@@ -1,6 +1,10 @@
 body {
+    background-image: url(../images/pattern.png); 
     font-family: 'Comic Neue', 'Comic Sans MS', 'Comic Sans', cursive;
-    background-color: #37ea82d2;
+    background-color: #e7da27d2;
+    margin-left: 10%;
+    color: white;
+    margin-right: 10%;
 }
 header
 {
@@ -23,6 +27,10 @@ header
 {
     background-color: #ffffff;
     color: rgb(0, 0, 0);
+}
+a
+{
+    color: rgb(228, 238, 49);
 }
 aside {
   width: 20%;
