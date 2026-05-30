@@ -2,9 +2,9 @@ body {
     background-image: url(../images/pattern.png); 
     font-family: 'Comic Neue', 'Comic Sans MS', 'Comic Sans', cursive;
     background-color:#28893f;
-    margin-left: 10%;
+    margin-left: 16%;
     color: whitesmoke;
-    margin-right: 10%;
+    margin-right: 16%;
 }
 header
 {
@@ -27,6 +27,14 @@ header
 {
     background-color: #ffffff;
     color: rgb(0, 0, 0);
+}
+section
+{
+    background-color: rgb(9, 85, 20, 0.5);
+    border: 5px solid rgb(9, 85, 20,0.5);  
+    border-radius: 12px;  
+    padding-left: 15px;
+    padding-right: 15px;
 }
 a
 {
