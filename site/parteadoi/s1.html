@@ -9,17 +9,17 @@
 </head>
 
 <body>
-    
+
     <audio autoplay loop>
         <source src="images/muzica.mp3" type="audio/mpeg" id="myaudio">
         Your browser does not support the audio element.
     </audio>
-     
-<script>
-  var audio = document.getElementById("myaudio");
-  audio.volume = 0.01;
-  console.log("s-a executat scriptul de modificarea a volumului");
-</script>
+
+    <script>
+        var audio = document.getElementById("myaudio");
+        audio.volume = 0.01;
+        console.log("s-a executat scriptul de modificarea a volumului");
+    </script>
 
     <header>
         <h1>
@@ -199,6 +199,23 @@
 
 
         </section>
+        <br>
+        </br>
+        <section>
+            <h2
+                style="display: grid; grid-template-columns: 1fr auto 1fr; align-items: center; width: 100%; margin-top: 0;">
+                <span>Observați orașul Buzău...</span>
+                <span style="color: red; font-weight: bold;font-size: 100px;">LIVE</span>
+                <span></span>
+            </h2>
+
+
+
+            <div class="custom-container"><iframe class="custom-responsive-iframe"
+                    src="https://primariabuzau.ro/iframe_web.php?cam_id=dacia" height="500px" width="600px"
+                    style="margin-left: auto; margin-right: auto; display: flex;"></iframe></div>
+
+        </section>
     </main>
     <footer>
         <p>Bibliografie site</p>
@@ -212,6 +229,7 @@
             <li><a id="link" href="https://meteostat.net/en/station/15350?t=2026-05-17/2026-05-24">Vremea Buzău pe ani
                     recenți</a></li>
             <li><a id="link" href="https://www.bphasdeu.ro/">Colegiul Național ”B.P. Hasdeu”</a></li>
+            <li><a id="link" href="https://primariabuzau.ro/camere-live/">Alte camere</a></li>
             <li><a id="link">Experiența proprie de mândru cetățean al Buzăului</li>
             <!--nu e link dar am ales sa pastrez consistenta culorii-->
         </ul>
