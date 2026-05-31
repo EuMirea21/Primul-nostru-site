@@ -10,7 +10,12 @@ ul {
     opacity: 1;
     overflow: hidden;
 }
-
+body
+{
+    background-color: rgb(249, 40, 44);
+    background-image: url(./site/parteadoi/images/pattern.png); 
+    color: whitesmoke;
+}
 /*
 li
 {
