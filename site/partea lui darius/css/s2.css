@@ -68,6 +68,15 @@ aside img {
     box-shadow: 4px 4px 10px rgba(0, 0, 0, 0.3);
 }
 
+.imagine {
+    border: 5px solid black;
+    border-radius: 12px;
+    box-shadow: 4px 4px 10px rgba(0, 0, 0, 0.3);
+    margin-left: auto;
+    margin-right: auto;
+    display: block  ;
+}
+
 #id2 {
     width: 30%;
     padding-left: 15px;
