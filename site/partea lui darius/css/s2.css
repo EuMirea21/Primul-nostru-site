@@ -125,3 +125,29 @@ tr:last-child td {
 tr:hover {
     background-color: rgba(0, 157, 21, 0.1);
 }
+
+.meniu {
+    list-style-type: none;
+    margin: auto;
+    padding: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: rgb(27, 27, 27);
+    opacity: 1;
+    overflow: hidden;
+}
+
+
+li a {
+    display: block;
+    color: #ffffff;
+    padding: 16px 16px;
+    text-decoration: none;
+    text-align: center;
+}
+
+li a:hover{
+    background-color: #ffffff;
+    color: rgb(0, 0, 0);
+}
