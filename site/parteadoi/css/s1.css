@@ -93,14 +93,10 @@ table {
     border: 2px solid rgb(0, 0, 0);
     border-radius: 12px;
     border-spacing: 0;
-    /* Înlocuiește collapse pentru a permite rotunjirea */
     overflow: hidden;
-    /* Taie colțurile drepte ale celulelor din margini */
     width: 100%;
-    /* Ocupă tot spațiul disponibil */
-    /* Font curat și modern */
     box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
-    /* Umbră fină pentru aspect 3D */
+    
 }
 
 th,
@@ -108,7 +104,7 @@ td {
     padding: 14px 12px;
     text-align: center;
     border-bottom: 1px solid rgba(0, 157, 21, 0.15);
-    /* Linii subtile între rânduri */
+
 }
 
 th {
